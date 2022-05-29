@@ -9,6 +9,7 @@ import torchvision.transforms as transforms
 import torchvision.models as models
 import copy
 
+# based heavily on https://pytorch.org/tutorials/advanced/neural_style_tutorial.html
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # desired size of the output image
