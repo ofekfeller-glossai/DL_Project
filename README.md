@@ -1,1 +1,4 @@
-"# DL_Project" 
+"# Deep Learning Workshop" 
+
+Since the seminal work of Gatys et al., plenty research efforts were dedicated to the task of Style Transfer. The task’s objective is to convert one input image’s (the “content reference”) style to the style of another image (the “style reference”), while preserving its semantics. Somewhat less attention was dedicated to the related task of Multi-Style Transfer, where the objective is to stylize the content image using several style references; and to algorithms that perform style transfer with explicit attention to the objects in the content image. 
+Our model takes as input one content reference, and one or more style references, and outputs a stylized version of the content image. Our model operates in different flavors, that determine which parts of the image should be stylized, and to what extent. The stylization is based on the textures of the style references, and is distributed harmoniously across the output image, correspondingly to the locations of the objects inside it, and to the required flavor. The flavors are - stylize objects, stylize background, stylize objects and background.
